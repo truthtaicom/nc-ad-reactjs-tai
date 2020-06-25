@@ -1,8 +1,8 @@
-var Person = /** @class */ (function () {
-    function Person() {
-        this.message = "hello word 3";
-    }
-    return Person;
-}());
-var p1 = new Person();
-console.log(p1.message);
+var productList;
+productList = ["a", "b", "c"];
+
+
+const person = {
+  firstName: "Tai",
+  sayHi: (name, age) => "Hi" + name + age
+}
